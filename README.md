@@ -16,7 +16,9 @@
 
 ## Pre-trained model
 
-Download Pixel-prior model ( [SYSU-CD](https://drive.google.com/file/d/1bxf_6j2qiYr935XzZ6Geyj0h6WDCGXmJ/view?usp=sharing) , [WHU-CD](https://drive.google.com/file/d/1xF9JytqDlsz4vmHMA-1Wb9wpf0CNUBnD/view?usp=sharing)，[LEVIER+-CD](https://drive.google.com/file/d/1azqF9H4EKvaGgx31aUo2KApZWZRStaZ8/view?usp=sharing) , [LEVIER-CD](https://drive.google.com/file/d/1en5R-KCjipbwP44CAYJLSWFLB_88YeSU/view?usp=sharing) and place in `./checkpoint/`
+1. Download Pre-trained model ( [SYSU-CD](https://drive.google.com/file/d/1bxf_6j2qiYr935XzZ6Geyj0h6WDCGXmJ/view?usp=sharing) , [WHU-CD](https://drive.google.com/file/d/1xF9JytqDlsz4vmHMA-1Wb9wpf0CNUBnD/view?usp=sharing)，[LEVIER+-CD](https://drive.google.com/file/d/1azqF9H4EKvaGgx31aUo2KApZWZRStaZ8/view?usp=sharing) , [LEVIER-CD](https://drive.google.com/file/d/1en5R-KCjipbwP44CAYJLSWFLB_88YeSU/view?usp=sharing) and place in `./checkpoint/`
+
+2. Download  [Pretrained weight](https://github.com/ChenHongruixuan/ChangeMamba?tab=readme-ov-file#a-pretrained-weight-of-vmamba-encoder)  and place in `./Pretrained_Weight/`
 
 ## Data Preparation
 
@@ -42,4 +44,3 @@ python infers.py  --dataset 'WHU-CD'  --model_type MambaBCD_Tiny     --test_data
 ## Acknowledgement
 
 This project is build based on [ChangeMamba](https://github.com/ChenHongruixuan/ChangeMamba) and [SIRST-5K](https://github.com/XPixelGroup/DiffBIR). We thank the authors for sharing their code.
-
